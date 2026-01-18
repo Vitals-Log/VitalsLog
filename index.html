@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitals Logbook - Your Personal Health Companion</title>
+    <meta name="description" content="Track blood pressure, glucose, heart rate & more. Generate PDF reports for your doctor. 100% private - data stays on your device.">
+    <meta name="keywords" content="blood pressure tracker, glucose monitor, health app, vitals log, medical app, iOS health">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">❤️</span>
+                <span class="logo-text">Vitals Logbook</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+            <a href="#download" class="nav-cta">Download Free</a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content" data-animate="fade-up">
+                <span class="hero-badge">🏥 Trusted by Health-Conscious Users</span>
+                <h1>Track Your Health,<br><span class="gradient-text">Own Your Data</span></h1>
+                <p class="hero-subtitle">The simple, private way to log your vitals. Blood pressure, glucose, heart rate, and more — all stored securely on your device.</p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M10 0C4.477 0 0 4.477 0 10c0 5.523 4.477 10 10 10s10-4.477 10-10C20 4.477 15.523 0 10 0zm3.7 14.077c-.1.24-.4.4-.7.4h-6c-.3 0-.6-.16-.7-.4-.1-.24-.1-.5.1-.7l3-3.5c.2-.23.5-.37.8-.37s.6.14.8.37l3 3.5c.2.2.2.46.1.7z"/>
+                        </svg>
+                        Download on App Store
+                    </a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Private</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Vital Types</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">PDF</span>
+                        <span class="stat-label">Reports</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-animate="fade-left">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-preview">
+                            <div class="preview-header">
+                                <span>Today</span>
+                                <span class="preview-date">Jan 18</span>
+                            </div>
+                            <div class="preview-card">
+                                <div class="vital-item">
+                                    <span class="vital-icon">🩺</span>
+                                    <span class="vital-label">Blood Pressure</span>
+                                    <span class="vital-value">120/80</span>
+                                </div>
+                                <div class="vital-item">
+                                    <span class="vital-icon">❤️</span>
+                                    <span class="vital-label">Heart Rate</span>
+                                    <span class="vital-value">72 bpm</span>
+                                </div>
+                                <div class="vital-item">
+                                    <span class="vital-icon">🩸</span>
+                                    <span class="vital-label">Glucose</span>
+                                    <span class="vital-value">5.5 mmol/L</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">Features</span>
+                <h2>Everything You Need to<br><span class="gradient-text">Monitor Your Health</span></h2>
+                <p>Comprehensive vital tracking designed for simplicity and privacy.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-animate="fade-up" data-delay="100">
+                    <div class="feature-icon">📊</div>
+                    <h3>Track Multiple Vitals</h3>
+                    <p>Blood pressure, heart rate, glucose, weight, temperature, SpO2, and custom vitals you define.</p>
+                </div>
+                <div class="feature-card" data-animate="fade-up" data-delay="200">
+                    <div class="feature-icon">📈</div>
+                    <h3>Visual Trends</h3>
+                    <p>Interactive charts show your health patterns over time. Scroll and tap to explore your data.</p>
+                </div>
+                <div class="feature-card" data-animate="fade-up" data-delay="300">
+                    <div class="feature-icon">📋</div>
+                    <h3>PDF Reports</h3>
+                    <p>Generate professional, doctor-ready reports with your photo, blood group, and complete logs.</p>
+                </div>
+                <div class="feature-card" data-animate="fade-up" data-delay="400">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Daily Reminders</h3>
+                    <p>Never forget to log your vitals with customizable daily notifications.</p>
+                </div>
+                <div class="feature-card" data-animate="fade-up" data-delay="500">
+                    <div class="feature-icon">🔒</div>
+                    <h3>100% Private</h3>
+                    <p>All data stored locally on your device. No accounts, no cloud, no data sharing.</p>
+                </div>
+                <div class="feature-card" data-animate="fade-up" data-delay="600">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Beautiful Design</h3>
+                    <p>Clean, calm interface designed for daily use. Supports light and dark modes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">How It Works</span>
+                <h2>Start Tracking in<br><span class="gradient-text">Three Simple Steps</span></h2>
+            </div>
+            <div class="steps">
+                <div class="step" data-animate="fade-up" data-delay="100">
+                    <div class="step-number">1</div>
+                    <h3>Log Your Vitals</h3>
+                    <p>Quick entry for blood pressure, glucose, heart rate, and more. Add notes and context tags.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step" data-animate="fade-up" data-delay="200">
+                    <div class="step-number">2</div>
+                    <h3>View Your Trends</h3>
+                    <p>See how your vitals change over time with interactive, scrollable charts.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step" data-animate="fade-up" data-delay="300">
+                    <div class="step-number">3</div>
+                    <h3>Share with Doctor</h3>
+                    <p>Generate a professional PDF report and share it with your healthcare provider.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section class="privacy-section" id="privacy">
+        <div class="container">
+            <div class="privacy-content" data-animate="fade-up">
+                <div class="privacy-icon">🔐</div>
+                <h2>Your Data Never Leaves Your Device</h2>
+                <p>Unlike other health apps, Vitals Logbook stores everything locally on your iPhone. No accounts to create, no servers to trust, no data to leak.</p>
+                <div class="privacy-features">
+                    <div class="privacy-feature">
+                        <span class="check">✓</span>
+                        <span>No cloud storage</span>
+                    </div>
+                    <div class="privacy-feature">
+                        <span class="check">✓</span>
+                        <span>No account required</span>
+                    </div>
+                    <div class="privacy-feature">
+                        <span class="check">✓</span>
+                        <span>No data collection</span>
+                    </div>
+                    <div class="privacy-feature">
+                        <span class="check">✓</span>
+                        <span>No third-party tracking</span>
+                    </div>
+                </div>
+                <a href="privacy.html" class="btn btn-outline">Read Privacy Policy</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="download-content" data-animate="fade-up">
+                <h2>Start Your Health Journey Today</h2>
+                <p>Download Vitals Logbook for free and take control of your health data.</p>
+                <a href="#" class="app-store-badge">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" width="200">
+                </a>
+                <p class="download-note">Requires iOS 17.0 or later. Compatible with iPhone.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">❤️</span>
+                    <span class="logo-text">Vitals Logbook</span>
+                    <p>Your personal health companion.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>App</h4>
+                        <a href="#features">Features</a>
+                        <a href="#how-it-works">How It Works</a>
+                        <a href="#download">Download</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="support.html">Help Center</a>
+                        <a href="support.html#contact">Contact Us</a>
+                        <a href="support.html#faq">FAQ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vitals Logbook. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
